@@ -8,7 +8,7 @@ on:
 
 jobs:
   mirror:
-    uses: org013/.github/workflows/mirrors.yml@main
+    uses: Org013/.github/workflows/mirrors.yml@main
     secrets: 
       CODEBERG_USERNAME: ${{ secrets.CODEBERG_USERNAME }}
       CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
